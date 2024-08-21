@@ -31,7 +31,7 @@ $(call inherit-product, device/infinix/X689B/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TSSI
+PRODUCT_DEVICE := X689B
 PRODUCT_NAME := twrp_X689B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix Hot 10S
