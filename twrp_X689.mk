@@ -25,21 +25,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Inherit from hot10s device
-$(call inherit-product, device/infinix/X689/device.mk)
+$(call inherit-product, device/infinix/X689B/device.mk)
 
 # Inherit some common Twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X689
-PRODUCT_NAME := twrp_X689
+PRODUCT_DEVICE := TSSI
+PRODUCT_NAME := twrp_X689B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Hot 10S
-PRODUCT_MANUFACTURER := Infinix
+PRODUCT_MODEL := Infinix Hot 10S
+PRODUCT_MANUFACTURER := INFINIX MOBILITY LIMITED
+PRODUCT_RELEASE_NAME := Infinix Hot 10S
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_x689_h696-user 11 RP1A.200720.011 255364 release-keys"
+    PRIVATE_BUILD_DESC="sys_tssi_64_infinix-user 11 RP1A.200720.011 346460 release-keys"
 
-BUILD_FINGERPRINT := Infinix/X689-GL/Infinix-X689:11/RP1A.200720.011/230224V538:user/release-keys
+BUILD_FINGERPRINT := Infinix/TSSI/FULL-64:11/RP1A.200720.011/230606V193:user/release-keys
